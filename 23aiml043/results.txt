@@ -1,0 +1,1 @@
+Baseline Model under Attack\nClean accuracy: 98.49%\nEpsilon | FGSM Accuracy | PGD Accuracy\n0.05 | 95.92% | 95.45%\n0.10 | 88.53% | 82.19%\n0.20 | 49.60% | 6.01%\n0.30 | 10.37% | 0.00%\n\nBaseline vs Adversarially Trained at epsilon 0.20\nBaseline: Clean 98.49%, FGSM 49.60%, PGD 6.01%\nAdversarially trained: Clean 98.90%, FGSM 92.99%, PGD 21.00%\n
